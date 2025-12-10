@@ -1,6 +1,6 @@
 /********** Template CSS **********/
 :root {
-    --primary: #D81324;
+    --primary: #1f0983;
     --secondary: #0B2154;
     --light: #F2F2F2;
     --dark: #111111;
@@ -86,7 +86,7 @@
 .navbar-light .navbar-nav .nav-link {
     margin-right: 30px;
     padding: 25px 0;
-    color: #FFFFFF;
+    color: #211569;
     font-size: 15px;
     text-transform: uppercase;
     outline: none;
@@ -302,7 +302,7 @@
     margin: 0 5px;
     width: 15px;
     height: 15px;
-    border: 1px solid #CCCCCC;
+    border: 1px solid #240a83;
     transition: .5s;
 }
 
@@ -314,7 +314,7 @@
 
 /*** Footer ***/
 .footer {
-    background: linear-gradient(rgba(0, 0, 0, .9), rgba(0, 0, 0, .9)), url(../img/carousel-bg-1.jpg) center center no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, .9), rgba(0, 0, 0, .9)), url(../img/CONSULAID01.jpeg) center center no-repeat;
     background-size: cover;
 }
 
@@ -326,7 +326,7 @@
     align-items: center;
     justify-content: center;
     color: var(--light);
-    border: 1px solid #FFFFFF;
+    border: 1px solid #0c1270;
     border-radius: 35px;
     transition: .3s;
 }
@@ -340,7 +340,7 @@
     margin-bottom: 5px;
     padding: 0;
     text-align: left;
-    color: #FFFFFF;
+    color: #0c0566;
     font-size: 15px;
     font-weight: normal;
     text-transform: capitalize;
