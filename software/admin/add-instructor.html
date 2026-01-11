@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Cadastrar Cliente</title>
+      <!-- Font Awesome -->
+      <link rel="stylesheet" href="../asset/fontawesome/css/all.min.css">
+      <link rel="stylesheet" href="../asset/css/adminlte.min.css">
+      <link rel="stylesheet" href="../asset/css/animate.min.css">
+      <link rel="stylesheet" href="../asset/css/style.css">
+
+   </head>
+   <body class="hold-transition sidebar-mini layout-fixed">
+      <div class="wrapper">
+         <!-- Navbar -->
+         <nav class="main-header navbar navbar-expand navbar-white navbar-light">
+            <!-- Right navbar links -->
+            <ul class="navbar-nav ml-auto">
+               <li class="nav-item">
+                  <a class="nav-link" data-widget="fullscreen" href="#" role="button">
+                  <i class="fas fa-expand-arrows-alt"></i>
+                  </a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" data-widget="fullscreen" href="../index.html">
+                  <i class="fas fa-power-off"></i>
+                  </a>
+               </li>
+            </ul>
+         </nav>
+         <!-- /.navbar -->
+         <!-- Main Sidebar Container -->
+         <aside class="main-sidebar sidebar-dark-primary elevation-4" style="background-color: rgba(62,88,113);">
+                        <!-- Brand Logo -->
+        <a href="index.html" class="brand-link animated swing">
+            <img src="../asset/img/" alt="AJADVOGADOS" width="200">
+            </a>
+            <!-- Sidebar -->
+            <div class="sidebar">
+               <!-- Sidebar user panel (optional) -->
+               <div class="user-panel mt-3 pb-3 mb-3 d-flex">
+                  <div class="image">
+                     <img src="../asset/img/avatar.jpg" class="img-circle elevation-2" alt="User Image">
+                  </div>
+                 <div class="info">
+                     <a href="#" class="d-block">AJADVOGADOS</a>
+                  </div>
+               </div>
+               <!-- Sidebar Menu -->
+               <nav class="mt-2">
+                  <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
+                     <li class="nav-item animated bounceInLeft">
+                        <a href="index.html" class="nav-link">
+                           <i class="nav-icon fa fa-tachometer-alt"></i>
+                           <p>
+                              Dashboard
+                           </p>
+                        </a>
+                     </li>
+                     <!--<li class="nav-item animated bounceInRight">
+                        <a href="student.html" class="nav-link">
+                           <i class="nav-icon fa fa-users"></i>
+                           <p>
+                              Clientes
+                           </p>
+                        </a>
+                     </li>-->
+                     <li class="nav-item animated bounceInLeft">
+                        <a href="#" class="nav-link">
+                           <i class="nav-icon fas fa-user"></i>
+                           <p>
+                              Clientes
+                           </p>
+                           <i class="right fas fa-angle-left"></i>
+                        </a>
+                        <ul class="nav nav-treeview">                           
+                           <li class="nav-item">
+                              <a href="manage-instructor.html" class="nav-link">
+                                 <i class="nav-icon fa fa-list"></i>
+                                 <p>Gerenciar</p>
+                              </a>
+                           </li>
+                        </ul>
+
+                     <li class="nav-item animated bounceInLeft">
+                        <a href="#" class="nav-link">
+                           <i class="nav-icon fas fa-user"></i>
+                           <p>
+                              Casos
+                           </p>
+                           <i class="right fas fa-angle-left"></i>
+                        </a>
+                        <ul class="nav nav-treeview">
+                           <li class="nav-item">
+                              <a href="add-instructor.html" class="nav-link">
+                                 <i class="nav-icon fa fa-plus"></i>
+                                 <p>Cadastrar</p>
+                              </a>
+                           </li>
+                           <li class="nav-item">
+                              <a href="manage-instructor.html" class="nav-link">
+                                 <i class="nav-icon fa fa-list"></i>
+                                 <p>Gerenciar</p>
+                              </a>
+                           </li>
+                        </ul>
+                     </li>
+                     <li class="nav-item animated bounceInRight">
+                        <a href="#" class="nav-link">
+                           <i class="nav-icon fas fa-book"></i>
+                           <p>
+                              Tarefas
+                           </p>
+                           <i class="right fas fa-angle-left"></i>
+                        </a>
+                        <ul class="nav nav-treeview">
+                           <li class="nav-item">
+                              <a href="add-schedule.html" class="nav-link">
+                                 <i class="nav-icon fa fa-plus"></i>
+                                 <p>Cadastrar</p>
+                              </a>
+                           </li>
+                           <li class="nav-item">
+                              <a href="manage-schedule.html" class="nav-link">
+                                 <i class="nav-icon fa fa-list"></i>
+                                 <p>Gerenciar</p>
+                              </a>
+                           </li>
+                        </ul>
+                     </li>
+                     <li class="nav-item animated bounceInLeft">
+                        <a href="#" class="nav-link">
+                           <i class="nav-icon fas fa-file-signature"></i>
+                           <p>
+                              Legislacao
+                           </p>
+                              <i class="right fas fa-angle-left"></i>
+                        </a>
+                        <ul class="nav nav-treeview">
+                           <li class="nav-item">
+                              <a href="add-enroll.html" class="nav-link">
+                                 <i class="nav-icon fa fa-plus"></i>
+                                 <p>Cadastrar</p>
+                              </a>
+                           </li>
+                           <li class="nav-item">
+                              <a href="manage-enroll.html" class="nav-link">
+                                 <i class="nav-icon fa fa-list"></i>
+                                 <p>Gerenciar</p>
+                              </a>
+                           </li>
+                        </ul>
+                     </li>
+                     <li class="nav-item animated bounceInLeft">
+                        <a href="#" class="nav-link">
+                           <i class="nav-icon fas fa-file-signature"></i>
+                           <p>
+                              Templates
+                           </p>
+                              <i class="right fas fa-angle-left"></i>
+                        </a>
+                        <ul class="nav nav-treeview">
+                           <li class="nav-item">
+                              <a href="add-enroll.html" class="nav-link">
+                                 <i class="nav-icon fa fa-plus"></i>
+                                 <p>Cadastrar</p>
+                              </a>
+                           </li>
+                           <li class="nav-item">
+                              <a href="manage-enroll.html" class="nav-link">
+                                 <i class="nav-icon fa fa-list"></i>
+                                 <p>Gerenciar</p>
+                              </a>
+                           </li>
+                        </ul>
+                     </li>
+                     <li class="nav-item animated bounceInRight">
+                        <a href="#" class="nav-link">
+                           <i class="nav-icon fas fa-money-bill"></i>
+                           <p>
+                              Faturacao
+                           </p>
+                              <i class="right fas fa-angle-left"></i>
+                        </a>
+                        <ul class="nav nav-treeview">
+                           <li class="nav-item">
+                              <a href="add-payment.html" class="nav-link">
+                                 <i class="nav-icon fa fa-plus"></i>
+                                 <p>Efetuar Pagamento</p>
+                              </a>
+                              <a href="add-payment.html" class="nav-link">
+                                 <i class="nav-icon fa fa-plus"></i>
+                                 <p>Receber Pagamento</p>
+                              </a>
+                              <a href="add-payment.html" class="nav-link">
+                                 <i class="nav-icon fa fa-plus"></i>
+                                 <p>Fatura</p>
+                              </a>
+                              <a href="add-payment.html" class="nav-link">
+                                 <i class="nav-icon fa fa-plus"></i>
+                                 <p>Cotacao</p>
+                              </a>
+                              <a href="add-payment.html" class="nav-link">
+                                 <i class="nav-icon fa fa-plus"></i>
+                                 <p>Recibo</p>
+                              </a>
+                           </li>
+                           <li class="nav-item">
+                              <a href="manage-payment.html" class="nav-link">
+                                 <i class="nav-icon fa fa-list"></i>
+                                 <p>Gerenciar</p>
+                              </a>
+                           </li>
+                        </ul>
+                     </li>
+                  </ul>
+                  </li>
+                  </ul>
+               </nav>
+               <!-- /.sidebar-menu -->
+            </div>
+            <!-- /.sidebar -->
+         </aside>
+         <!-- Content Wrapper. Contains page content -->
+         <div class="content-wrapper">
+            <!-- Content Header (Page header) -->
+            <div class="content-header">
+               <div class="container-fluid">
+                  <div class="row mb-2">
+                     <div class="col-sm-6 animated bounceInRight">
+                        <h1 class="m-0"><span class="fa fa-plus"></span> Cadastrar Cliente</h1>
+                     </div>
+                     <!-- /.col -->
+                     <div class="col-sm-6">
+                        <ol class="breadcrumb float-sm-right">
+                           <li class="breadcrumb-item"><a href="#">Home</a></li>
+                           <li class="breadcrumb-item active">Cadastrar Cliente</li>
+                        </ol>
+                     </div>
+                     <!-- /.col -->
+                  </div>
+                  <!-- /.row -->
+               </div>
+               <!-- /.container-fluid -->
+            </div>
+            <!-- /.content-header -->
+            <!-- Main content -->
+            <section class="content">
+               <div class="container-fluid">
+                  <div class="card card-info">
+              <div class="card-header">
+                <h3 class="card-title">Perfil de Informacoes</h3>
+              </div>
+              <!-- /.card-header -->
+              <!-- form start -->
+              <form>
+                <div class="card-body">
+                  <div class="row">
+                  <div class="col-md-3">
+
+                  <div class="form-group">
+                     <img src="../asset/img/avatar.jpg" width="150" style="border-radius: 5px">
+                    <label for="exampleInputFile">Fotografia</label>
+                    <div class="input-group">
+                      <div class="custom-file">
+                        <input type="file" class="custom-file-input" id="exampleInputFile">
+                        <label class="custom-file-label" for="exampleInputFile">Escolha o Ficheiro</label>
+                      </div>
+                    </div>
+                 </div>
+                  </div>
+                  <div class="col-md-9">
+                     <div class="card-header">
+                        <span class="fa fa-user"> Perfil de Informacoes</span>
+              </div>
+                  <div class="row">
+                  <div class="col-md-4">
+                  <div class="form-group">
+                    <label for="exampleInputEmail1">Nome</label>
+                    <input type="email" class="form-control" placeholder="Primeiro nome">
+                  </div>
+               </div>
+                  <div class="col-md-4">
+                  <div class="form-group">
+                    <label for="exampleInputEmail1">Sobre nome</label>
+                    <input type="email" class="form-control" placeholder="Segundo nome">
+                  </div>
+               </div>
+                  <div class="col-md-4">
+                  <div class="form-group">
+                    <label for="exampleInputEmail1">Apelido</label>
+                    <input type="email" class="form-control" placeholder="last name">
+                  </div>
+               </div>
+                  <div class="col-md-3">
+                  <div class="form-group">
+                        <label>Genero</label>
+                        <select class="form-control">
+                          <option>Masculino</option>
+                          <option>Feminino</option>
+                        </select>
+                      </div>
+               </div>
+                  <div class="col-md-3">
+                  <div class="form-group">
+                    <label for="exampleInputEmail1">Data de Nascimento</label>
+                    <input type="date" class="form-control" placeholder="Apelido">
+                  </div>
+               </div>
+                  <div class="col-md-3">
+                  <div class="form-group">
+                    <label for="exampleInputEmail1">Contacto</label>
+                    <input type="number" class="form-control" placeholder="Celular">
+                  </div>
+               </div>
+                  <div class="col-md-3">
+                  <div class="form-group">
+                    <label for="exampleInputEmail1">Email</label>
+                    <input type="email" class="form-control" placeholder="email">
+                  </div>
+               </div>
+                  <div class="col-md-6">
+                  <div class="form-group">
+                    <label for="exampleInputEmail1">Tipo de caso</label>
+                    <input type="text" class="form-control" placeholder="Caso que o tras a empresa">
+                  </div>
+               </div>
+                  <div class="col-md-6">
+                  <div class="form-group">
+                    <label for="exampleInputEmail1">Morada</label>
+                    <input type="email" class="form-control" placeholder="Morada">
+                  </div>
+               </div>
+
+                  <div class="col-md-12">
+                     <div class="card-header">
+                        <span class="fa fa-key"> Conta do sistema</span>
+              </div>
+           </div>
+
+                  <div class="col-md-6">
+                  <div class="form-group">
+                    <label for="exampleInputEmail1">Nome</label>
+                    <input type="email" class="form-control" placeholder="Segundo nome">
+                  </div>
+               </div>
+                  <div class="col-md-6">
+                  <div class="form-group">
+                    <label for="exampleInputEmail1">Senha</label>
+                    <input type="email" class="form-control" placeholder="data de nascimento">
+                  </div>
+               </div>
+            </div>
+              </div>
+                  </div>
+
+                </div>
+                <!-- /.card-body -->
+
+                <div class="card-footer">
+                  <button type="submit" class="btn btn-primary">Gravar</button>
+                </div>
+              </form>
+            </div>
+               </div>
+               <!-- /.container-fluid -->
+            </section>
+            <!-- /.content -->
+         </div>
+         <!-- /.content-wrapper -->
+      </div>
+      <!-- ./wrapper -->
+      <!-- jQuery -->
+      <script src="../asset/jquery/jquery.min.js"></script>
+      <script src="../asset/js/adminlte.js"></script>
+
+   </body>
+</html>
